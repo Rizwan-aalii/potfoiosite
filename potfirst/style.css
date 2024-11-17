@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #11212D;
+}
+.heding h1 {
+    background-color: #454545;
+    color:#D8D8D8 ;
+    font-size: 120px;
+    margin-top: 25px;
+    line-height:-5px;
+    letter-spacing: 2px;
+    font-family: arial;
+    margin-left: 20px;
+}
+.loca {
+    display: flex;
+    justify-content: space-between;
+}
+.loca h3 {
+    font-size: 80px;
+    margin-left: 20px;
+    color: #6E6E6E;
+   
+}
+.loca h4 {
+    font-size: 30px;
+    margin-right:30px ;
+    color: #6E6E6E;
+}
+.manu {
+    position: absolute;
+    left: 95%;
+    display: flex;
+}
+.manu h3 {
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-radius:25px ;
+    position: fixed;
+    height: 25px;
+    width: 50px;
+}
+.manu #ma {
+    margin-right: 150px; 
+    padding: 5px;
+    width: 15px;
+}
+.manu #md {
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    width: 15px;
+}
+.abut1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+.abut1 {
+   height: 300px;
+   width: 100%;
+}
+.ab1 {
+    margin-left:10px ;
+    height: 400px;
+    width: 50%
+}
+.ab1 h2 {
+    font-family: ;
+    color: #FEFEFE;
+    font-size: 70px;
+}
+.ab2 {
+   
+    height: 400px;
+    width: 50% ;
+    border-left: 2px solid black;
+}
+.ab2 h3 {
+    padding-left:15px ;
+    color: #FEFEFE;
+    font-size: 60px;
+}
+.contact {
+    margin-top: 50px;
+    height: 120px;
+    padding-left: 20px;
+}
+.contact input {
+    height: 40px;
+    width:550px;
+    position: relative;
+    left: 40%;
+    top: 50%;
+    translate: transform(-50%-50%);
+}
+.contact button {
+    height: 40px;
+    width:90px ;
+    margin-left: 20px;
+    position: relative;
+    left: 40%;
+    top: 50%;
+    translate:transform(-50%-50%);
+}
+#chacha {
+    display: flex;
+    justify-content: center;
+}
+.aboutus {
+    background-color: black;
+    height: 100px;
+    width: 600px;
+}
+.contractus {
+    background-color: rgb(116, 10, 10);
+    height: 100px;
+    width: 600px;
+}
+.joinus {
+    background-color: rgb(10, 116, 51);
+    height: 100px;
+    width: 800px;
+}

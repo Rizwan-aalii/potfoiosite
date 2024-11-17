@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color:#0171B6;
+    
+}
+
+.data {
+    height: 10vw;
+    padding: 3vw 0.80vw;
+    display: flex;
+    justify-content: center;
+    background-color: #000000 ;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.social {
+    font-size: 1vw;
+}
+
+.skills h3 {
+    color: #d8d8e6;
+    text-transform: uppercase;
+}
+.skills {
+  height: 25vw;
+  text-align: center;
+  background-color: #000000;
+  
+}
+
+#data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 10vw;
+   
+}
+
+.datat {
+    font-weight: 900;
+    padding-top: 0.50vw;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 2vw;
+    height: 8vw;
+    width: 8vw;
+    color: #150344;
+    background-color:#dddddd ;
+}
+
+#one {
+    margin-top: 2vw;
+    padding: 2px , 2px;
+   font-size: 4vw;
+}
+
+.planguage {
+    background-color:#000000 ;
+    text-align: center;
+    color: #d1e0d3;
+}
+
+.languages {
+    height: 10vw;
+    font-size: 5vw;
+    gap: 10vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#langua {
+    padding: 1rem ;
+   color: #FEE715;
+}
+#languag {
+    padding: 1rem ;
+    color: #6F9CF3;
+}
+#langu{
+    padding: 1rem ;
+   background: linear-gradient(to right, #0171B6, #F7BB07); /* Define the gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#lang{
+    padding: 1rem ;
+    color: #c8663c;
+}

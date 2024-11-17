@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 224, 231);
+}
+.header {
+    padding-top: 1vw;
+    text-shadow: 25pc;
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    line-height: -21px;
+    background-color: black;
+    color: white;
+}
+.projectone {
+    margin-top: 2vw ;
+    margin-left: 2vw;
+    height: 28vw;
+    width: 29vw;
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projectcontent {
+    padding: 0.85vw;
+   background-image: url(/developer-8764526_1920.jpg);
+   height: 22vw;
+   width: 25vw;
+   background-size: cover;
+}
+
+.see {
+    margin-top :23vw ;
+    margin-left: 10vw; 
+   height: 2vw;
+   width: 4vw;
+   font-size: 1vw;
+   text-transform: uppercase;
+   color: aqua;
+   background-color: rgb(143, 143, 14);
+}
+
+.projectcontenttwo {
+    padding: 0.85vw;
+   background-image: url(/Screenshot.png);
+   height: 22vw;
+   width: 25vw;
+   background-size: cover;
+}
+.seesecound {
+    margin-top :23vw ;
+    margin-left: 10vw; 
+   height: 2vw;
+   width: 4vw;
+   font-size: 1vw;
+   text-transform: uppercase;
+   color: aqua;
+   background-color: rgb(143, 143, 14);
+}
+.projectcontentthree {
+    padding: 0.85vw;
+   background-image: url(/game/Screenshot.png);
+   height: 22vw;
+   width: 25vw;
+   background-size: cover;
+}
+.seethird {
+    margin-top :23vw ;
+    margin-left: 10vw; 
+   height: 2vw;
+   width: 4vw;
+   font-size: 1vw;
+   text-transform: uppercase;
+   color: aqua;
+   background-color: rgb(143, 143, 14);
+}

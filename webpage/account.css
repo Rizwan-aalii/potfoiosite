@@ -1,0 +1,79 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+CZ:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.maindiv {
+    height: 47vw;
+    width:  100vw;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincontainer {
+    text-align: center;
+    padding-top:20px ;
+    text-transform: uppercase;
+    border: 2px solid black;
+    height: 30vw;
+    width: 30vw;
+    gap: 5vw;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    /* display: inline; */
+    text-transform: uppercase;
+    margin-top: 45px;
+    height: 30px;
+    text-align: center;
+}
+.heading {
+    color: #d00dbaa6;
+    text-transform: uppercase;
+    margin-top: 25px;
+    height: 30px;
+}
+
+.email {
+    font-size: 20px;
+    margin-top: 45px;
+    height: 40px;
+    width: 300px; 
+    text-align: center;
+}
+
+.password {
+    font-size: 20px;
+    margin-top: 45px;
+    height: 40px;
+    width: 300px; 
+    text-align: center;
+}
+
+.username {
+    font-size: 20px;
+    margin-top: 45px;
+    height: 40px;
+    width: 300px; 
+    text-align: center;
+}
+
+.submit {
+    font-size:15px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    height: 30px;
+    width: 120px; 
+    text-align: center;
+}
